@@ -48,7 +48,7 @@ MonoBehaviour:
   m_MinSize: {x: 679, y: 492}
   m_MaxSize: {x: 14002, y: 14042}
   vertical: 0
-  controlID: 61
+  controlID: 53
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -220,7 +220,7 @@ MonoBehaviour:
   m_MinSize: {x: 403, y: 492}
   m_MaxSize: {x: 10001, y: 14042}
   vertical: 1
-  controlID: 62
+  controlID: 54
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -245,7 +245,7 @@ MonoBehaviour:
   m_MinSize: {x: 403, y: 221}
   m_MaxSize: {x: 8003, y: 4021}
   vertical: 0
-  controlID: 17
+  controlID: 55
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -365,20 +365,20 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/MRTK/Core/Interfaces/Devices
+    - Assets/Materials
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/MRTK/Core/Interfaces/Devices
+  - Assets/Materials
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\dev\unity\320-2020-S2-G4\Infosys320
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 238}
-    m_SelectedIDs: 26840000
-    m_LastClickedID: 33830
-    m_ExpandedIDs: 000000000a8400000c8400000e8400001084000000ca9a3b
+    scrollPos: {x: 0, y: 0}
+    m_SelectedIDs: 2e5a0000
+    m_LastClickedID: 23086
+    m_ExpandedIDs: 000000006a4b00006e4b0000704b00002456000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -406,7 +406,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 000000000a8400000c8400000e84000010840000
+    m_ExpandedIDs: 000000006a4b00006c4b00006e4b0000704b0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -433,7 +433,7 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 0
+    m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: c6230000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -450,7 +450,7 @@ MonoBehaviour:
       m_IsRenaming: 0
       m_OriginalEventType: 11
       m_IsRenamingFilename: 1
-      m_ClientGUIView: {fileID: 0}
+      m_ClientGUIView: {fileID: 5}
     m_CreateAssetUtility:
       m_EndAction: {fileID: 0}
       m_InstanceID: 0
@@ -528,10 +528,10 @@ MonoBehaviour:
   m_ViewDataDictionary: {fileID: 0}
   m_SceneHierarchy:
     m_TreeViewState:
-      scrollPos: {x: 0, y: 0}
+      scrollPos: {x: 0, y: 291}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 5ce3feff
+      m_ExpandedIDs: b0f2ffff5c580000c8580000de580000545900006c59000078590000b6590000c0590000c4590000ec590000fc590000045a0000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -584,16 +584,16 @@ MonoBehaviour:
   m_ShowContextualTools: 0
   m_WindowGUID: d69a67902db7f994ca099bec79d22ce1
   m_Gizmos: 1
-  m_SceneIsLit: 1
+  m_SceneIsLit: 0
   m_SceneLighting: 1
   m_2DMode: 0
   m_isRotationLocked: 0
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 2.5979156, y: 2.7781954, z: -3.4912376}
+    m_Target: {x: -0.33066702, y: 0.42401743, z: -2.3863246}
     speed: 2
-    m_Value: {x: 2.5979156, y: 2.7781954, z: -3.4912376}
+    m_Value: {x: -0.33066702, y: 0.42401743, z: -2.3863246}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -606,7 +606,7 @@ MonoBehaviour:
   m_SceneViewState:
     showFog: 1
     showMaterialUpdate: 0
-    showSkybox: 1
+    showSkybox: 0
     showFlares: 1
     showImageEffects: 1
     showParticleSystems: 1
@@ -639,17 +639,17 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: -0.042419247, y: 0.94991773, z: -0.1482427, w: -0.27181575}
+    m_Target: {x: 0.09722405, y: 0.40787464, z: -0.043735396, w: 0.9068123}
     speed: 2
-    m_Value: {x: -0.04241919, y: 0.9499165, z: -0.1482425, w: -0.2718154}
+    m_Value: {x: 0.09450153, y: 0.40799677, z: -0.042510748, w: 0.90708375}
   m_Size:
-    m_Target: 10
+    m_Target: 0.9990935
     speed: 2
-    m_Value: 10
+    m_Value: 1.0461712
   m_Ortho:
-    m_Target: 0
+    m_Target: 1
     speed: 2
-    m_Value: 0
+    m_Value: 1
   m_CameraSettings:
     m_Speed: 1
     m_SpeedNormalized: 0.5
