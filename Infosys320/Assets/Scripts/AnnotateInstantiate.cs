@@ -1,18 +1,21 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class AnnotateInstantiate : MonoBehaviour
 {
-    public Rigidbody Annotation;
-    public Transform annotationLocation;
+    public GameObject Annotation;
+   
 
-
-void Update()
+    void Update()
     {
-        if (Input.GetButtonDown("u"))
+        if (Input.GetKeyDown("u"))
         {
-            Annotation = Instantiate(Annotation, Camera.main.transform.position, Camera.main.transform.rotation);
+            Vector3 annotationPosition = Camera.main.transform.position + Camera.main.transform.forward * 2.0f;
+            Quaternion annotationRotation = Camera.main.transform.rotation;
+            Annotation = Instantiate(Annotation, annotationPosition, annotationRotation);
         }
     }
+
 }
