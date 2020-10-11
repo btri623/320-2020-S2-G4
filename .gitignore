@@ -69,3 +69,6 @@ crashlytics-build.properties
 # Temporary auto-generated Android Assets
 /[Aa]ssets/[Ss]treamingAssets/aa.meta
 /[Aa]ssets/[Ss]treamingAssets/aa/*
+
+# stupid apple files that are too big for github
+/Assets/SpeechSDK/Plugins/iOS/libMicrosoft.CognitiveServices.Speech.core.a
