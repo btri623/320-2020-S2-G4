@@ -71,4 +71,4 @@ crashlytics-build.properties
 /[Aa]ssets/[Ss]treamingAssets/aa/*
 
 # stupid apple files that are too big for github
-/Assets/SpeechSDK/Plugins/iOS/libMicrosoft.CognitiveServices.Speech.core.a
+# /Assets/SpeechSDK/Plugins/iOS/libMicrosoft.CognitiveServices.Speech.core.a
