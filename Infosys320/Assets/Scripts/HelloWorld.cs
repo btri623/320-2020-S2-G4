@@ -11,6 +11,7 @@ using System.Collections;
 using Microsoft.CognitiveServices.Speech.Audio;
 using System.IO;
 using TMPro;
+using Microsoft.MixedReality.Toolkit.UI;
 #if PLATFORM_ANDROID
 using UnityEngine.Android;
 #endif
@@ -23,7 +24,7 @@ public class HelloWorld : MonoBehaviour
 {
     private bool micPermissionGranted = false;
     public TextMeshPro outputText;
-    public Button recoButton;
+    public PressableButton recoButton;
     SpeechRecognizer recognizer;
     SpeechConfig config;
     AudioConfig audioInput;
@@ -130,7 +131,7 @@ public class HelloWorld : MonoBehaviour
         }
         else if (recoButton == null)
         {
-            message = "recoButton property is null! Assign a UI Button to it.";
+            message = "This room is clear.";
             UnityEngine.Debug.LogError(message);
         }
         else
@@ -151,7 +152,7 @@ public class HelloWorld : MonoBehaviour
             }
 #else
             micPermissionGranted = true;
-            message = "Click button to recognize speech";
+            message = "Record an annotation...";
 #endif
             config = SpeechConfig.FromSubscription("7a2e92d2050d448c89f944d47669194b", "eastus");
             pushStream = AudioInputStream.CreatePushStream();
@@ -161,7 +162,7 @@ public class HelloWorld : MonoBehaviour
             recognizer.Recognized += RecognizedHandler;
             recognizer.Canceled += CanceledHandler;
 
-            recoButton.onClick.AddListener(ButtonClick);
+            recoButton.ButtonPressed.AddListener(ButtonClick);
             foreach (var device in Microphone.devices)
             {
                 Debug.Log("DeviceName: " + device);                
@@ -198,7 +199,7 @@ public class HelloWorld : MonoBehaviour
         {
             if (recoButton != null)
             {
-                recoButton.interactable = micPermissionGranted;
+                message = message;
             }
             if (outputText != null)
             {
